@@ -16,7 +16,7 @@ tuple<double, double> measurement_update(double mean1, double var1, double mean2
 int main()
 {
 
-    tie(new_mean, new_var) = measurement_update(20, 5, 30, 5);
+    tie(new_mean, new_var) = measurement_update(10, 8, 13, 2);
     printf("[%f, %f]", new_mean, new_var);
     return 0;
 }
